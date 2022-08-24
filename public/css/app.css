@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
-
-500;700&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -18,7 +16,6 @@ img {
 li {
   list-style: none;
 }
-
 li a {
   text-decoration: none;
 }
@@ -40,43 +37,121 @@ header {
   top: 0;
   z-index: 1000;
 }
-
 header .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header .main-header .logo img {
   width: 75px;
   display: inline-block;
 }
-
 header .main-header .menu {
   margin: 30px 0;
   display: flex;
   justify-content: center;
 }
-
 header .main-header .menu li {
   padding: 10px;
   text-decoration: none;
   cursor: pointer;
 }
-
 header .main-header .menu li.current {
   border-bottom: 1px solid #0282F9;
   border-bottom-width: 5px;
 }
-
 header .main-header .menu li a {
   color: black;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
-
 header .main-header .menu li a.current {
   color: #0282F9;
 }
 
+main {
+  margin-top: 100px;
+}
+main .jumbotron {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.am-flex {
+  justify-content: space-between;
+}
+
+.footer-main {
+  padding: 20px 0;
+  background-image: url(../img/footer-bg.jpg);
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+.footer-main .col-left h3 {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.footer-main .col-left .menu-footer {
+  margin-right: 20px;
+}
+.footer-main .col-left li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.footer-main .col-left li a {
+  color: gray;
+}
+.footer-main .col-right {
+  position: absolute;
+  top: -40px;
+  right: 50px;
+}
+.footer-main .col-right img {
+  width: 350px;
+}
+
+.content-footer-bottom {
+  align-items: center;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  background-color: #303030;
+  color: white;
+  position: relative;
+  text-transform: uppercase;
+}
+.footer-bottom .btn-cta {
+  color: white;
+  border: 2px solid #0282F9;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.icons-social {
+  display: flex;
+  align-items: center;
+}
+.icons-social h3 {
+  color: #0282F9;
+}
+.icons-social .follow-us {
+  text-transform: uppercase;
+  color: #303030;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.icons-social ul {
+  display: flex;
+}
+.icons-social ul li {
+  margin: 0 10px;
+}
