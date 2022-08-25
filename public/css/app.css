@@ -82,6 +82,72 @@ main .jumbotron {
      object-fit: cover;
 }
 
+.content-main {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+.content-main .title-section {
+  background-color: #0282F9;
+  color: white;
+  display: inline-block;
+  padding: 7px 20px;
+  position: relative;
+  top: -20px;
+}
+.content-main .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-main .cards .single-card {
+  width: calc(16.6666666667% - 20px);
+  margin: 10px 10px 30px 10px;
+}
+.content-main .cards .single-card .img-card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  aspect-ratio: 1/1;
+}
+.content-main .cards .single-card .series-card {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.buy-list {
+  display: flex;
+  justify-content: center;
+  background-color: #0282F9;
+  padding: 40px 0;
+}
+.buy-list .buy-img {
+  width: 40px;
+}
+.buy-list img {
+  display: inline-block;
+}
+.buy-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-list li {
+  padding: 0px 25px;
+}
+.buy-list li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.buy-list li a .text {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
 .am-flex {
   justify-content: space-between;
 }

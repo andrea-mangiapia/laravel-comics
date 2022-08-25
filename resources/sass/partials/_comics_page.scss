@@ -1,0 +1,79 @@
+// Section Comics Card List
+.content-main {
+    background-color: $section_color_primary;
+    color: white;
+    text-transform: uppercase;
+    // position: absolute;
+
+    .title-section {
+        background-color: $brand_main_color;
+        color: white;
+        display: inline-block;
+        padding: 7px 20px;
+        position: relative;
+        top: -20px;
+    }
+    
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        .single-card {
+            width: calc((100% / 6) - 20px);
+            margin: 10px 10px 30px 10px;
+            
+            .img-card {
+        
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    aspect-ratio: 1 / 1;
+                }
+            }
+            
+        
+            .series-card {
+                margin-top: 10px;
+                font-size: 14px;
+            }
+        }
+    }   
+}
+
+// Section Buy List
+.buy-list {
+    display: flex;
+    justify-content: center;
+    background-color: $brand_main_color;
+    padding: 40px 0;
+    
+    .buy-img {
+        width: 40px;
+    }
+    img {
+        display: inline-block;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        padding: 0px 25px ;
+        
+        a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .text {
+                padding-left: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}

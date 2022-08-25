@@ -17,7 +17,11 @@ Route::get('/', function () {
     $comics_array = config('comics');
     // dd($comics_array);
 
-    return view('comics');
+    $data = [
+        'comics_array' => $comics_array
+    ];
+
+    return view('comics', $data);
 })->name('comics');
 
 Route::get('/characters', function () {

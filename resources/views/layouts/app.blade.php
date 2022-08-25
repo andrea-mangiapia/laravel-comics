@@ -12,6 +12,8 @@
     @include('partials.header')
 
     <main>
+        @include('components/jumbotron')
+        
         @yield('main_content')
     </main>
     
