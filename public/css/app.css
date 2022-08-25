@@ -100,6 +100,47 @@ main .jumbotron {
   -o-object-fit: cover;
      object-fit: cover;
 }
+main .container {
+  width: 60%;
+}
+main .banner-img {
+  background-color: #0282F9;
+  position: relative;
+  height: 70px;
+}
+main .banner-img img {
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+}
+main .comics-content {
+  padding: 20px 0;
+}
+main .comics-content .comics-text {
+  width: calc(100% - 300px);
+  padding-right: 20px;
+}
+main .comics-content .comics-text .banner-price {
+  background-color: #55ba59;
+  padding: 20px;
+  margin: 20px 0;
+  color: white;
+}
+main .comics-content .comics-text .banner-price .price-item {
+  width: 70%;
+}
+main .comics-content .comics-text .banner-price .price-item .available {
+  text-align: right;
+}
+main .comics-content .comics-text .banner-price .text-style-price {
+  color: #bafd9c;
+}
+main .comics-content .adv {
+  width: 300px;
+}
+main .comics-content .adv img {
+  display: inline;
+}
 
 .content-main {
   background-color: black;
