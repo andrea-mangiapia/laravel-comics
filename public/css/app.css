@@ -100,47 +100,6 @@ main .jumbotron {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .container {
-  width: 60%;
-}
-main .banner-img {
-  background-color: #0282F9;
-  position: relative;
-  height: 70px;
-}
-main .banner-img img {
-  width: 150px;
-  position: absolute;
-  bottom: 20px;
-}
-main .comics-content {
-  padding: 20px 0;
-}
-main .comics-content .comics-text {
-  width: calc(100% - 300px);
-  padding-right: 20px;
-}
-main .comics-content .comics-text .banner-price {
-  background-color: #55ba59;
-  padding: 20px;
-  margin: 20px 0;
-  color: white;
-}
-main .comics-content .comics-text .banner-price .price-item {
-  width: 70%;
-}
-main .comics-content .comics-text .banner-price .price-item .available {
-  text-align: right;
-}
-main .comics-content .comics-text .banner-price .text-style-price {
-  color: #bafd9c;
-}
-main .comics-content .adv {
-  width: 300px;
-}
-main .comics-content .adv img {
-  display: inline;
-}
 
 .content-main {
   background-color: black;
@@ -206,6 +165,77 @@ main .comics-content .adv img {
 .buy-list li a .text {
   padding-left: 10px;
   font-size: 14px;
+}
+
+.container {
+  width: 60%;
+}
+
+.banner-img {
+  background-color: #0282F9;
+  position: relative;
+  height: 70px;
+}
+.banner-img img {
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.comics-content {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.comics-content .comics-text {
+  width: calc(100% - 300px);
+  padding-right: 20px;
+}
+.comics-content .comics-text .banner-price {
+  background-color: #55ba59;
+  padding: 20px;
+  margin: 20px 0;
+  color: white;
+  display: flex;
+}
+.comics-content .comics-text .banner-price .price-item {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.comics-content .comics-text .banner-price .price-item .available {
+  text-align: right;
+}
+.comics-content .comics-text .banner-price .check {
+  width: 30%;
+  text-align: center;
+}
+.comics-content .comics-text .banner-price .text-style-price {
+  color: #bafd9c;
+}
+.comics-content .adv {
+  width: 300px;
+}
+.comics-content .adv img {
+  display: inline;
+}
+
+.comic-details {
+  background-color: gray;
+}
+.comic-details .comics-details-content {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.comic-details .comics-details-content h3 {
+  padding: 20px 0;
+}
+.comic-details .comics-details-content .comics-details-text {
+  width: 50%;
+  font-size: 12px;
+}
+.comic-details .comics-details-content .color-blue {
+  color: #0282F9;
 }
 
 .am-flex {
