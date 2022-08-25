@@ -6,6 +6,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+main {
+  background-color: white;
+  z-index: 1;
 }
 
 img {
@@ -27,6 +33,19 @@ li a {
 
 .am-flex {
   display: flex;
+}
+
+.am-btn {
+  padding-bottom: 20px;
+}
+
+.am-btn button {
+  color: white;
+  background-color: #0282F9;
+  padding: 10px 50px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 header {

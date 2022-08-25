@@ -7,6 +7,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+main {
+    background-color: white;
+    z-index: 1;
 }
 
 img {
@@ -30,4 +35,17 @@ li {
 
 .am-flex {
     display: flex;
+}
+
+.am-btn {
+    padding-bottom: 20px;
+}
+
+.am-btn button {
+    color: white;
+    background-color: $brand_main_color;
+    padding: 10px 50px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
 }

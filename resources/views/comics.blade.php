@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('page_title')
+    Comics   
+@endsection
+
 @section('main_content')
 
     <section class="content-main">
@@ -24,6 +28,10 @@
                     
                 @endforeach           
 
+            </div>
+
+            <div class="am-btn">
+                <button>LOAD MORE</button>
             </div>
 
         </div>
