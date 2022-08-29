@@ -16,14 +16,19 @@
                 @foreach ($comics_array as $comics_item)
 
                     <div class="single-card">
-                        <!-- Image Card -->
-                        <div class="img-card">
-                            <img src="{{ $comics_item['thumb'] }}" alt="{{ $comics_item['series'] }}">
-                        </div>
+                        <a href="{{ route('single_comics', [
+                            'id' => $comics_item['id']
+                        ]) }}">
+                            <!-- Image Card -->
+                            <div class="img-card">
+                                <img src="{{ $comics_item['thumb'] }}" alt="{{ $comics_item['series'] }}">
+                            </div>
+                        </a>
                         <!-- Title Series Card -->
                         <h2 class="series-card">
                             {{ $comics_item['series'] }}
                         </h2>
+                        
                     </div>  
                     
                 @endforeach           
